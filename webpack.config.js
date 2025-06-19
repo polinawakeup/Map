@@ -10,8 +10,8 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,             // применять к .js
-        exclude: /node_modules/,   // кроме библиотек
+        test: /\.js$/, // применять к .js
+        exclude: /node_modules/, // кроме библиотек
         use: {
           loader: 'babel-loader', // использовать babel-loader
         },
